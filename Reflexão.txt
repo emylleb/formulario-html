@@ -1,0 +1,5 @@
+Reflexão 
+1- o tema que eu escolhi foi relacionado aos chalés da saga de Percy Jackson, escolhi porque gosto e achei que fosse legal fazer para descobrir o tipo de chalé.
+2-Usei o método post, pois o formulário recebe dados dos usuários(como e-mail,etc). E nesse caso o post seria o mais indicado porque os dados vão escondidos no corpo da requisição, o que garante mais segurança e privacidade, além de não expor informações na URL e não ter o limite de tamanho como o GET.
+3-Optei por radio em vez de ⁠<select>⁠  nas perguntas de “qual tipo de atividade” e “qual qualidade”, porque eram poucas opções. Assim, elas já ficam todas visíveis de primeira para o usuário clicar sem precisar abrir um menu.
+4- eu tentaria melhorar o visual, estilizar etc.

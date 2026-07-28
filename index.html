@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang=pt-BR>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Descubra seu chalé</title>
+</head>
+
+<body>
+  <h1>Descubra seu chalé</h1>
+  <p>Responda às perguntas para descobrir qual chalé de Percy jackson combina mais com você.</p>
+  <form action="https://webhook.site/76103007-9dba-4682-8ea4-1e2f6c409080" method="post" enctype="multipart/form-data"</form>
+  <fieldset>
+    <legend>Dados do Semideus</legend>
+  <div>
+  <fieldset>
+    <legend>Preencha o campo abaixo:)</legend>
+  </fieldset>
+  
+</fieldset>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required maxlength="40" />
+  </div>
+  <div>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required />
+  </div>
+  <div>
+    <label for="nascimento">Data de nascimento:</label>
+    <input type="date" id="data" name="data">
+    <div>
+      <label for="idade">idade:</label>
+      <input type="number" name="idade" id="idade">
+    </div>
+    </fieldset>
+  </div>
+  <fieldset>
+    <legend>Teste do olimpo</legend>
+    <p>Que tipo de atividade você prefere?</p>
+    <input type="radio" name="atividade" id="ler e estudar" value="estudar" />
+    <label for="ler e estudar">ler e estudar</label>
+    <input type="radio" name="atividade" id="aventurar" value="se aventurar" />
+    <label for="aventurar">Se aventurar</label>
+    <input type="radio" name="atividade" id="música ou desenhar" value="música ou desenhar" />
+    <label for="música ou desenhar">
+    Ouvir música ou desenhar</label>
+    <input type="radio" name="atividade" id="criar" value="criar ou inventar" />
+    <label for="criar">Criar e inventar trabalhos manuais </label>
+    </fieldset>
+    <fieldset>
+      <p>Qual qualidade combina mais com você?</p>
+      <input type="checkbox" name="qualidade" id="coragem" value="coragem">
+      <label for="coragem">Coragem</label>
+      <input type="checkbox" name="qualidade" id="inteligência" value="inteligência">
+      <label for="inteligência">Inteligência</label>
+      <input type="checkbox" name="qualidade" id="criatividade" value="criatividade" />
+      <label for="criatividade">Criatividade</label>
+      <input type="checkbox" name="qualidade" id="liderança" value="liderança">
+      <label for="liderança">Liderança</label>
+      <input type="checkbox" name="qualidade" id="lealdade" value="lealdade" />
+      <label for="lealdade">Lealdade</label>
+    </fieldset>
+    <fieldset>
+      <p>Qual deus você acha que é filho(a)?</p>
+      <select name="deus" id="deus">
+        <optgroup label="deuses principais">
+        <option value="Zeus">Zeus</option>
+        <option value="poseidon">Poseidon</option>
+        <option value="atena">Atena</option>
+        </optgroup>
+        <optgroup label="Outros deuses">
+        <option value="Ares">Ares</option>
+        <option value="afrodite">afrodite</option>
+        <option value="Hermes">Hermes</option>
+        <option value="apolo">apolo</option>
+        <option value="hefesto">hefesto</option>
+        <option value="Dionísio">Dionísio</option>
+        <option value="Deméter">Deméter</option>
+        <option value="Hera">Hera</option>
+        </optgroup>
+      </select>
+    <p>Fale um pouco sobre você:)</p>
+      <textarea name="sobre" id=sobre rows="5" cols="40" placeholder="digite seu texto aqui..."></textarea>
+    </fieldset>
+    <fieldset>
+  <legend>Informações Extras</legend>
+  
+  <div>
+    <label for="arma">Qual arma você gostaria de usar em uma missão?</label><br>
+    <input type="text" id="arma" name="arma" list="armas">
+    
+    <datalist id="armas">
+      <option value="Espada">
+      <option value="Arco e Flecha">
+      <option value="Tridente">
+      <option value="Adaga">
+      <option value="Lança">
+    </datalist>
+  </div>
+  <details>
+  <summary>Ver informações sobre os chalés</summary>
+  
+  <p>Cada chalé pertence a um deus do Olimpo.</p>
+  <p>Cada chalé tem características próprias e seus moradores costumam compartilhar habilidades e traços de personalidade semelhantes. </p>
+  
+</details>
+</fieldset>
+    <div>
+      <label for="foto">Envie uma foto do seu semideus ou deus favorito do universo de pjo:</label>
+<input type="file" id="foto" name="foto">
+    </div>
+    <<input type="submit" value="Descobrir meu chalé">
+</form>
+  
+</body>
+
+</html>
